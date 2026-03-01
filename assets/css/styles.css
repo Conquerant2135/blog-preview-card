@@ -23,7 +23,7 @@ body {
 }
 
 .container {
-  width: clamp( 324px ,  324px ,  384px) ;
+  width: clamp(324px, 80vw, 384px);
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -31,21 +31,23 @@ body {
 }
 
 .blog-card {
-  width:  clamp( 80% ,  384px ,  384px);
+  height: 522px;
+  width: 100%;
   display: flex;
   flex-direction: column;
   background-color: var(--white);
   overflow: hidden;
   border-radius: 12px;
-  gap: var(--spacing-150);
+  gap: var(--spacing-300);
   padding: var(--spacing-300);
   box-shadow: 10px 10px 0px var(--gray-950);
+  border: 2px solid var(--gray-950);
 }
 
 .card-content {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
 }
 
 .card-img {
@@ -72,15 +74,16 @@ body {
 
 .card-title {
   font-family: Figtree-ExtraBold;
+  white-space: nowrap;
 }
 
 .card-title:hover {
-    color: var(--yellow);
-    cursor: pointer;
+  color: var(--yellow);
+  cursor: pointer;
 }
 
 .card-title::after {
-    color: var(--yellow);
+  color: var(--yellow);
 }
 
 .card-text {
@@ -93,17 +96,17 @@ body {
 }
 
 .card-footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: var(--spacing-150);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: var(--spacing-150);
 }
 
 .card-pub-img {
-    width: 32px;
-    height: 32px;
+  width: 32px;
+  height: 32px;
 }
 
 .card-pub-name {
-    font-family: Figtree-Extrabold;
+  font-family: Figtree-Extrabold;
 }
