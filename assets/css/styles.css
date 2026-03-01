@@ -47,7 +47,7 @@ body {
 .card-content {
   display: flex;
   flex-direction: column;
-  gap: 14px;
+  gap: 12px;
 }
 
 .card-img {
