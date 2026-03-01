@@ -79,6 +79,7 @@ Also working on working faster
 
 - [font manipulation](https://www.w3schools.com/css/css3_fonts.asp) - This helped me for including the external downloaded font .
 - [css variable](https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Cascading_variables/Using_custom_properties) - This teached me how to make css variable
+- [clamp in css](https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/clamp) - How to use clamp()
 
 ### AI Collaboration
 
