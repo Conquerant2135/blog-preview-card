@@ -31,8 +31,8 @@ Users should be able to:
 
 ### Links
 
-- Live site URL: [Github pages link](https://conquerant2135.github.io/responsive-card/)
-- Solution URL : [Github repository link](https://github.com/Conquerant2135/responsive-card/)
+- Live site URL: [Github pages link](https://conquerant2135.github.io/blog-preview-card/)
+- Solution URL : [Github repository link](https://github.com/Conquerant2135/blog-preview-card/)
 
 ## My process
 
